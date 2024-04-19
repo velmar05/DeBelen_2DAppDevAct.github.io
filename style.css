@@ -1,0 +1,84 @@
+
+body {
+    background-image: url('images/BACKGROUND.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    padding: 20px;
+    font-family: arial;
+}
+h1{
+    color: green;
+    font: 30px;
+    font-family: cursive;
+}
+div.centered h2 a:hover{
+    background-color: green;
+    border: 2px;
+    border-radius: 8px;
+}
+div.centered h2 a.active{
+    color: gray;
+    text-decoration-line: none;
+}
+div.introduction h3{
+    background-color: green;
+    color: white;
+    padding:5px;
+    font-family: cursive;
+}
+div.expertise h3{
+    background-color: green;
+    color: white;
+    padding:5px;
+    font-family: cursive;
+}
+div.education h4{
+    color:black;
+    font-family: cursive;
+    border-bottom: solid black;
+}
+div.education th{
+    background-color: green;
+    color:white;
+    font-family: cursive;
+}
+div.center h4{
+    background-color: green;
+    color: white;
+    padding:5px;
+    font-family: cursive;
+}
+div.applications h4{
+    background-color: green;
+    color: white;
+    padding:5px;
+    font-family: cursive;
+}
+.centered {
+    text-align: center;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.displayed-name {
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: arial;
+}
+
+table, th, td {
+    border: 1px solid white;
+    padding: 8px;
+}
+
